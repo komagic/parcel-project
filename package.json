@@ -3,13 +3,19 @@
   "version": "1.0.0",
   "main": "index.js",
   "license": "MIT",
-
   "devDependencies": {
     "babel-cli": "^6.26.0",
-    "babel-preset-env": "^1.6.1"
+    "babel-preset-env": "^1.6.1",
+    "cross-env": "^5.1.4",
+    "eslint": "^4.18.2",
+    "node-sass": "^4.7.2"
   },
   "scripts": {
-    "start":"parcel index.html",
-    "build":"parcel build index.html"
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "cross-env NODE_ENV=test mocha"
+  },
+  "dependencies": {
+    "lodash": "^4.17.5"
   }
 }
