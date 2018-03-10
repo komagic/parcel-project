@@ -1,0 +1,1 @@
+{"version":3,"sources":["index.js"],"names":["a","alert"],"mappings":";;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;AACA,IAAIA,IAAE,SAAFA,CAAE,GAAI;AAACC,QAAM,OAAN;AAAe,CAA1B;;AAEAD","file":"parcel.map","sourcesContent":["\r\nlet a=()=>{alert('nihao')}\r\n\r\na()\r\n"]}
